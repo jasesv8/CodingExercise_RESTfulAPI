@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>RESTfulFS</Company>
+    <Authors>Jason Barr</Authors>
+    <Product>RESTfulFS Service Classes</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RESTfulFS.Infrastructure\RESTfulFS.Infrastructure.csproj" />
+    <ProjectReference Include="..\RESTfulFS.Models\RESTfulFS.Models.csproj" />
+  </ItemGroup>
+
+</Project>
